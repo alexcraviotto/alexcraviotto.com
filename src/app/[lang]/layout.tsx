@@ -53,7 +53,6 @@ export default async function RootLayout({
           text-black dark:text-[color:var(--foreground)] 
             bg-gradient-to-bl from-white to-white dark:from-[color:var(--background)] dark:to-[color:var(--card)]">
             <Navbar lang={params.lang} />
-            <Toaster />
             <TransitionWrapper >
             {children}
 
@@ -61,6 +60,8 @@ export default async function RootLayout({
           </div>
 
         </ThemeProvider>
+        <Toaster />
+
       </body>
     </html>
   );
