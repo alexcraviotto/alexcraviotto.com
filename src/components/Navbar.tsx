@@ -64,7 +64,7 @@ export default function Navbar({ lang }: { lang: Locale }) {
                             </TooltipContent>
                         </Tooltip>
                         <Tooltip>
-                            <TooltipTrigger onClick={() => router.push("https://www.youtube.com/craviotto")}>
+                            <TooltipTrigger onClick={() => router.push("https://www.youtube.com/@craviottoalex")}>
                                 <SiYoutube className="h-4 w-4 cursor-pointer" />
                             </TooltipTrigger>
                             <TooltipContent>

@@ -59,7 +59,7 @@ export default function BurgerMenu({ params: { lang }, className }: BurgerMenuPr
               <SiGithub className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://github.com/alexcraviotto")} />   
               <SiLinkedin className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://www.linkedin.com/in/alexcraviotto")} />
               <SiInstagram className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://www.instagram.com/craviottodev")} />
-              <SiYoutube className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://www.youtube.com/craviotto")} />    
+              <SiYoutube className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://www.youtube.com/@craviottoalex")} />    
               </div>
             
             </div>
