@@ -6,7 +6,7 @@ export default function Experience({ params: { lang } }: any) {
   
   return (
     <section className="space-y-6 lg:space-y-12 animate-fade-in">
-      <Section title={dict.experience.title} description={dict.experience.subtitle} />
+      <Section title={dict.experience.title + " 🛠️"} description={dict.experience.subtitle} />
       <div className="space-y-6">
         {dict.experience.list.map((item: any, index: number) => (
           <div key={index} className="p-4 border rounded-lg shadow-md dark:border-white/30">
