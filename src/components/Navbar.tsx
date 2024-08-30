@@ -32,7 +32,7 @@ export default function Navbar({ lang }: { lang: Locale }) {
                 <div className="hidden lg:flex items-center space-x-4">
                     <TooltipProvider>
                         <Tooltip>
-                            <TooltipTrigger onClick={() => router.push("https://x.com/alexcraviotto")}>
+                            <TooltipTrigger onClick={() => router.push("https://x.com/craviottoalex")}>
                                 <SiX className="h-4 w-4 cursor-pointer" />
                             </TooltipTrigger>
                             <TooltipContent>
@@ -64,7 +64,7 @@ export default function Navbar({ lang }: { lang: Locale }) {
                             </TooltipContent>
                         </Tooltip>
                         <Tooltip>
-                            <TooltipTrigger>
+                            <TooltipTrigger onClick={() => router.push("https://www.youtube.com/craviotto")}>
                                 <SiYoutube className="h-4 w-4 cursor-pointer" />
                             </TooltipTrigger>
                             <TooltipContent>
