@@ -1,0 +1,129 @@
+{
+    "seo": {
+        "title": "Alex Craviotto's Portfolio",
+        "description": "You can change the world with code, or at least make it a little bit better. I'm a software engineer with a passion for creating and improving applications. I'm always looking for new challenges and opportunities to learn and grow."
+    },
+    "navbar": {
+        "home": "Home",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Hey, I'm Alex Craviotto",
+        "subtitle": "I am a self-taught software engineer from Spain. Right now I'm focusing on becoming a full stack web developer to create amazing experiences in frontend and scalable and secure infrastructure for the backend."
+    },
+    "whatido": {
+        "title": "What I Do 💭",
+        "subtitle": "I'm passionate about everything related to technology, from designing a prototype to planning an architecture for a specific software. I love collaborating on projects, but I also like to start my own ideas. What I like most about programming is that it gives you the power to create whatever you want, from anywhere in the world."
+    },
+    "projects": {
+        "title": "Projects 🚀",
+        "subtitle": "Here are some of the projects I've worked on. I'm always looking for new challenges and opportunities to learn and grow.",
+        "viewAllProjects": "View all projects",
+        "viewProject": "> View project",
+        "list": [
+            {
+                "title": "ConversaLink | AI Powered Chatbot",
+                "description": "Revolutionize customer service and lead acquisition with ConversaLink, an AI chatbot custom-tailored for your business. Effortlessly elevate communication, presence, and optimize connections. Level up your outreach game with seamless automation.",
+                "link": "https://conversalink.com",
+                "image": "/images/projects/conversalink.webp"
+            },
+            {
+                "title": "Reminiscencefy | Auto-generated monthly playlists",
+                "description": "Relive your memories through music, automatically generated monthly playlists in Spotify, reaching thousands of users and learning how to manage them, reaching thousands of users and learning how to manage them, and how to monetize the service by giving visibility to medium and small artists on the rise",
+                "link": "https://reminiscencefy.me",
+                "image": "/images/projects/reminiscencefy.webp"
+            },
+            {
+                "title": "Speedsive | Viral Video Maker",
+                "description": "Automate the process and upload videos that compile music with altered speed, thanks to the rise of tiktok has created a very profitable youtube trend that allows you to gain views and subscribers relatively quickly This trend consists of uploading videos that compile viral songs that are on tiktok and increase or decrease the speed (sped up or slowed songs) Speedsive is in charge of automating all this, both video creation and uploading to Youtube",
+                "link": "https://github.com/alexcraviotto/speedsive",
+                "image": "/images/projects/speedsive.webp"
+            },
+            {
+                "title": "Classcord | Discord Bot",
+                "description": "Classcord is a Discord bot that helps teachers and students to manage their classes, assignments, and grades. It is a tool that helps to organize the classes and the students, it is a tool that helps to organize the classes and the students, it is a tool that helps to organize the classes and the students, it is a tool that helps to organize the classes and the students. It reaches more than 400K users and has a very active community. Was verified by Discord.",
+                "link": "",
+                "image": "/images/projects/classcord.webp"
+            }
+        ]
+    },
+    "spotify": {
+        "currentPlaying": "I'm currently listening to ",
+        "on": "on"
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "I have collaborated on various projects that have allowed me to learn and grow as a software engineer. They have provided me with knowledge and insight into the professional business world. I love building things on my own, but I also enjoy working on projects that motivate me. Here are some of the jobs I have been involved in.",
+        "form": {
+            "emailPlaceholder": "Your email",
+            "emailAditionalInfo": "I won't share your email with anyone else.",
+            "contentTitle": "Message",
+            "contentPlaceholder": "Your message",
+            "contentAditionalInfo": "Do not hesitate to write to me if you need to contact me.",
+            "submit": "Send",
+            "error": {
+                "email": "Please enter a valid email address.",
+                "content": "Please enter a message longer that ten characters."
+            },
+            "toast": {
+                "success": "Message sent successfully!",
+                "error": "An error occurred while sending the message. Please try again later."
+            }
+        },
+        "awakeornot": {
+            "currently": "It's currently",
+            "timeForMe": "for me, so I'm probably",
+            "awake": "awake",
+            "sleeping": "sleeping",
+            "soonResponse": "I'll get back to you soon."
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "subtitle": "Here is a summary of my work experience.",
+        "list": [
+            {
+                "title": "Loofta | Lead Engineer",
+                "company": "Loofta",
+                "location": "Remote",
+                "date": "Summer 2024",
+                "description": "Working with freelancers in web3 is now easy. Create deal, set terms, and approve payments in one place. Loofta is a platform that connects freelancers with clients in a decentralized way."
+            },
+            {
+                "title": "DynamicsVR",
+                "company": "DynamicsVR",
+                "location": "Spain",
+                "date": "1Q 2024",
+                "description": "Fulfilling the curricular practices of my university I was part of DynamicsVR, a company that focuses on integrating VR in the world of health. I was part of the WAT team."
+            },
+            {
+                "title": "ConversaLink",
+                "company": "ConversaLink",
+                "location": "Spain",
+                "date": "July 2023 - Present",
+                "description": "Together with my partner, creator of conversalink, the innovation with artificial intelligence of the host-guest relationship on the airbnb platform."
+            },
+            {
+                "title": "Reminiscencefy For Artists",
+                "company": "Reminiscencefy",
+                "location": "Spain",
+                "date": "January 2023 - Present",
+                "description": "Monetization system through music artist promotions for the Reminiscencefy service."
+            },
+            {
+                "title": "Reminiscencefy",
+                "company": "Reminiscencefy",
+                "location": "Spain",
+                "date": "April 2022 - Present",
+                "description": "Creator of Reminiscencefy, currently providing support and incorporating new features to continue growing the platform."
+            },
+            {
+                "title": "Upwork Freelancer",
+                "company": "Company Name",
+                "location": "Remote",
+                "date": "November 2021 - Dec 2021",
+                "description": "To gain experience, I did several freelance jobs in backend and frontend development."
+            }
+        ]
+    }
+}

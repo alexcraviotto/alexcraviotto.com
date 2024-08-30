@@ -1,0 +1,129 @@
+{
+    "seo": {
+        "title": "Portfolio de Alex Craviotto",
+        "description": "Puedes cambiar el mundo con código, o al menos hacerlo un poco mejor. Soy un ingeniero de software con pasión por crear y mejorar aplicaciones. Siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer."
+    },
+    "navbar": {
+        "home": "Inicio",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "title": "Hey, soy Alex Craviotto",
+        "subtitle": "Soy un ingeniero de software autodidacta de España. En este momento me estoy centrando en convertirme en un desarrollador web full stack para crear experiencias increíbles en el frontend y una infraestructura escalable y segura para el backend."
+    },
+    "whatido": {
+        "title": "Lo que hago 💭",
+        "subtitle": "Me apasiona todo lo que tiene que ver con la tecnología, desde diseñar un prototipo a plantear una arquitectura para un software específico. Me encanta colaborar en proyctos, pero también me gusta emprender mis propias ideas. Lo que mas me gusta de la programación es que te da el poder de crear lo que tu quieras, desde cualquier lugar del mundo."
+    },
+    "projects": {
+        "title": "Proyectos 🚀",
+        "subtitle": "Aquí hay algunos de los proyectos en los que he trabajado. Siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer.",
+        "viewAllProjects": "Ver todos los proyectos",
+        "viewProject": "> Ver proyecto",
+        "list": [
+            {
+                "title": "ConversaLink | Chatbot impulsado por IA",
+                "description": "Revoluciona el servicio al cliente y la adquisición de clientes potenciales con ConversaLink, un chatbot de IA personalizado para tu negocio. Eleva sin esfuerzo la comunicación, presencia y optimiza conexiones. Mejora tu estrategia de alcance con una automatización perfecta.",
+                "link": "https://conversalink.com",
+                "image": "/images/projects/conversalink.webp"
+            },
+            {
+                "title": "Reminiscencefy | Listas de reproducción mensuales autogeneradas",
+                "description": "Revive tus recuerdos a través de la música, con listas de reproducción mensuales generadas automáticamente en Spotify, llegando a miles de usuarios y aprendiendo a gestionarlos, así como a monetizar el servicio dando visibilidad a artistas medianos y pequeños en ascenso.",
+                "link": "https://reminiscencefy.me",
+                "image": "/images/projects/reminiscencefy.webp"
+            },
+            {
+                "title": "Speedsive | Creador de Videos Virales",
+                "description": "Automatiza el proceso y sube videos que compilan música con velocidad alterada. Gracias al auge de TikTok, se ha creado una tendencia muy rentable en YouTube que permite ganar vistas y suscriptores relativamente rápido. Esta tendencia consiste en subir videos que compilan canciones virales de TikTok y aumentar o disminuir la velocidad (canciones aceleradas o ralentizadas). Speedsive se encarga de automatizar todo esto, tanto la creación de videos como la subida a YouTube.",
+                "link": "https://github.com/alexcraviotto/speedsive",
+                "image": "/images/projects/speedsive.webp"
+            },
+            {
+                "title": "Classcord | Bot de Discord",
+                "description": "Classcord es un bot de Discord que ayuda a profesores y estudiantes a gestionar sus clases, tareas y calificaciones. Es una herramienta que ayuda a organizar las clases y a los estudiantes. Llega a más de 400 mil usuarios y tiene una comunidad muy activa. Fue verificado por Discord.",
+                "link": "",
+                "image": "/images/projects/classcord.webp"
+            }
+        ]
+    },
+    "spotify": {
+        "currentPlaying": "Ahora estoy escuchando ",
+        "on": "en"
+    },
+    "contact": {
+        "title": "Contacto",
+        "subtitle": "Si quieres ponerte en contacto conmigo, puedes hacerlo a través de este pequeño formulario. ¡Estaré encantado de responderte!",
+        "form": {
+            "emailPlaceholder": "Tu correo electrónico",
+            "emailAditionalInfo": "No compartiré tu correo electrónico con nadie más.",
+            "contentTitle": "Mensaje",
+            "contentPlaceholder": "Tu mensaje",
+            "contentAditionalInfo": "No dudes en escribirme si necesitas ponerte en contacto conmigo.",
+            "submit": "Enviar",
+            "error": {
+                "email": "Por favor, introduce un correo electrónico válido.",
+                "content": "Por favor, introduce un mensaje de mas de diez carácteres."
+            },
+            "toast": {
+                "success": "¡Mensaje enviado con éxito!",
+                "error": "¡Ha ocurrido un error! Por favor, inténtalo de nuevo."
+            }
+        },
+        "awakeornot": {
+            "currently": "Actualmente son las",
+            "timeForMe": "para mí, así que probablemente esté",
+            "awake": "despierto",
+            "sleeping": "durmiendo",
+            "soonResponse": "Te responderé pronto."
+        }
+    },
+    "experience": {
+        "title": "Experiencia",
+        "subtitle": "He colaborado en varios proyectos que me han permitido aprender y crecer como ingeniero de software. Me han propocionado conocimientos y visión del mundo empresarial profesional. Me encanta montar cosas por mi cuenta, pero trabajar en proyectos que me motivan también. Aquí hay algunos de los trabajos en los que he estado involucrado.",
+        "list": [
+            {
+                "title": "Loofta | Lead Engineer",
+                "company": "Loofta",
+                "location": "Remoto",
+                "date": "Verano 2024",
+                "description": "Trabajar con freelancers en web3 ahora es fácil. Crea acuerdos, establece términos y aprueba pagos en un solo lugar. Loofta es una plataforma que conecta a freelancers con clientes de manera descentralizada."
+            },
+            {
+                "title": "DynamicsVR",
+                "company": "DynamicsVR",
+                "location": "España",
+                "date": "1Q 2024",
+                "description": "Cumpliendo con las prácticas curriculares de mi universidad, fui parte de DynamicsVR, una empresa que se centra en integrar la realidad virtual en el mundo de la salud. Formé parte del equipo WAT."
+            },
+            {
+                "title": "ConversaLink",
+                "company": "ConversaLink",
+                "location": "España",
+                "date": "Julio 2023 - Presente",
+                "description": "Junto con mi socio, creador de ConversaLink, la innovación con inteligencia artificial de la relación anfitrión-huésped en la plataforma de Airbnb."
+            },
+            {
+                "title": "Reminiscencefy Para Artistas",
+                "company": "Reminiscencefy",
+                "location": "España",
+                "date": "Enero 2023 - Presente",
+                "description": "Sistema de monetización a través de promociones de artistas musicales para el servicio Reminiscencefy."
+            },
+            {
+                "title": "Reminiscencefy",
+                "company": "Reminiscencefy",
+                "location": "España",
+                "date": "Abril 2022 - Presente",
+                "description": "Creador de Reminiscencefy, actualmente brindando soporte e incorporando nuevas funciones para seguir haciendo crecer la plataforma."
+            },
+            {
+                "title": "Freelancer en Upwork",
+                "company": "Nombre de la Compañía",
+                "location": "Remoto",
+                "date": "Noviembre 2021 - Dic 2021",
+                "description": "Para ganar experiencia, realicé varios trabajos independientes en desarrollo backend y frontend."
+            }
+        ]
+    }
+}
