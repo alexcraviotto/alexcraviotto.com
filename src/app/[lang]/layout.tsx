@@ -5,8 +5,8 @@ import Navbar from "@/components/Navbar";
 import { getDictionary, Locale } from "../dictionaries";
 import { Toaster } from "@/components/ui/toaster";
 import TransitionWrapper from "@/components/TransitionWrapper";
-import { usePathname, useRouter } from "next/navigation";
-import { useEffect } from "react";
+import Script from "next/script";
+
 
 const inter = Inter({ subsets: ["latin"] });
 type Props = {
@@ -54,7 +54,7 @@ export default async function RootLayout({
             bg-gradient-to-bl from-white to-white dark:from-[color:var(--background)] dark:to-[color:var(--card)]">
             <Navbar lang={params.lang} />
             <TransitionWrapper >
-            {children}
+              {children}
 
             </TransitionWrapper>
           </div>
@@ -63,6 +63,9 @@ export default async function RootLayout({
         <Toaster />
 
       </body>
+      <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
+
     </html>
+
   );
 }
