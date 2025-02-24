@@ -83,47 +83,72 @@
         "subtitle": "I have collaborated in several projects that have allowed me to learn and grow as a software engineer. They have provided me with knowledge and insight into the professional business world. I love setting things up on my own, but working on projects that motivate me as well. Here are some of the jobs I've been involved in.",
         "list": [
             {
+                "title": "Brick Avengers | Sneaker Reselling System",
+                "company": "Personal Project",
+                "location": "Remote",
+                "date": "Q4 2024 - Q1 2025",
+                "description": "Development of an automated system for sneaker stock monitoring using proxies and web scrapers. Implementation of advanced scraping techniques and management of multiple proxy connections to optimize real-time stock alerts and notifications for resellers.",
+                "technologies": ["Node.js", "Puppeteer", "Proxy Management", "Web Scraping", "Automation"]
+            },
+            {
                 "title": "Loofta | Lead Engineer",
                 "company": "Loofta",
                 "location": "Remote",
                 "date": "Summer 2024",
-                "description": "Working with freelancers in web3 is now easy. Create deal, set terms, and approve payments in one place. Loofta is a platform that connects freelancers with clients in a decentralized way."
+                "description": "Working with freelancers in web3 is now easy. Create deal, set terms, and approve payments in one place. Loofta is a platform that connects freelancers with clients in a decentralized way.",
+                "technologies": ["Telegram Mini Apps", "Solana", "JavaScript", "React", "Web3"]
             },
             {
                 "title": "DynamicsVR",
                 "company": "DynamicsVR",
                 "location": "Spain",
                 "date": "1Q 2024",
-                "description": "Fulfilling the curricular practices of my university I was part of DynamicsVR, a company that focuses on integrating VR in the world of health. I was part of the WAT team."
+                "description": "Fulfilling the curricular practices of my university I was part of DynamicsVR, a company that focuses on integrating VR in the world of health. I was part of the WAT team.",
+                "technologies": ["SQL", "API REST", "Postman", "AWS", "Node.js"]
             },
             {
                 "title": "ConversaLink",
                 "company": "ConversaLink",
                 "location": "Spain",
-                "date": "July 2023 - Present",
-                "description": "Together with my partner, creator of conversalink, the innovation with artificial intelligence of the host-guest relationship on the airbnb platform."
+                "date": "July 2023 - February 2025",
+                "description": "Together with my partner, creator of conversalink, the innovation with artificial intelligence of the host-guest relationship on the airbnb platform.",
+                "technologies": ["RabbitMQ", "NestJS", "Next.js", "React", "TypeScript", "TailwindCSS", "Nginx", "Docker"]
             },
             {
                 "title": "Reminiscencefy For Artists",
                 "company": "Reminiscencefy",
                 "location": "Spain",
                 "date": "January 2023 - Present",
-                "description": "Monetization system through music artist promotions for the Reminiscencefy service."
+                "description": "Monetization system through music artist promotions for the Reminiscencefy service.",
+                "technologies": ["Next.js", "NextAuth", "Server Administration", "GitHub Actions", "CI/CD"]
             },
             {
                 "title": "Reminiscencefy",
                 "company": "Reminiscencefy",
                 "location": "Spain",
                 "date": "April 2022 - Present",
-                "description": "Creator of Reminiscencefy, currently providing support and incorporating new features to continue growing the platform."
+                "description": "Creator of Reminiscencefy, currently providing support and incorporating new features to continue growing the platform.",
+                "technologies": ["Next.js", "NextAuth", "Server Administration", "GitHub Actions", "CI/CD"]
             },
             {
                 "title": "Upwork Freelancer",
                 "company": "Company Name",
                 "location": "Remote",
                 "date": "November 2021 - Dec 2021",
-                "description": "To gain experience, I did several freelance jobs in backend and frontend development."
+                "description": "To gain experience, I did several freelance jobs in backend and frontend development.",
+                "technologies": ["Web3", "Web Development", "Python", "Automation", "JavaScript"]
             }
+        ]
+    },
+    "cta": {
+        "title": "Have a project in mind?",
+        "subtitle": "I'm always open to discussing new projects and opportunities. Whether you have a business idea or need technical expertise, let's create something amazing together.",
+        "button": "Let's Talk",
+        "features": [
+            "Custom Software Development",
+            "Web Applications",
+            "Technical Consulting",
+            "MVP Development"
         ]
     }
 }

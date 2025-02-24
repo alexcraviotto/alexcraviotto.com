@@ -6,7 +6,7 @@ import { getDictionary, Locale } from "../dictionaries";
 import { Toaster } from "@/components/ui/toaster";
 import TransitionWrapper from "@/components/TransitionWrapper";
 import Script from "next/script";
-
+import ProjectCTAWrapper from "@/components/ProjectCTAWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 type Props = {
@@ -15,8 +15,6 @@ type Props = {
     lang: Locale;
   };
 };
-
-
 
 export default async function RootLayout({
   children, params
@@ -49,23 +47,23 @@ export default async function RootLayout({
           defaultTheme="dark"
           enableSystem
         >
-          <div className="flex flex-col items-center max-w-3xl container mx-auto p-8 h-full min-h-screen
+          <ProjectCTAWrapper lang={params.lang} />
+
+          <div className="flex flex-col items-center max-w-3xl container mx-auto h-full min-h-screen
           text-black dark:text-[color:var(--foreground)] 
             bg-gradient-to-bl from-white to-white dark:from-[color:var(--background)] dark:to-[color:var(--card)]">
-            <Navbar lang={params.lang} />
-            <TransitionWrapper >
-              {children}
 
+            <Navbar lang={params.lang} />
+
+            <TransitionWrapper>
+              
+              {children}
             </TransitionWrapper>
           </div>
-
         </ThemeProvider>
         <Toaster />
-
       </body>
       <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
-
     </html>
-
   );
 }
