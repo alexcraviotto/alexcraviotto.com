@@ -22,30 +22,34 @@ export default async function RootLayout({
   const dict = getDictionary(params.lang);
 
   return (
-    <html lang={params.lang}>
-      <title>{dict.seo.title}</title>
-      <link rel="icon" href="/images/favicon.ico" sizes="any" />
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="theme-color" content="#FFFFFF" />
-      <meta name="robots" content="follow, index" />
-      <meta name="og:type" content="website" />
-      <meta name="og:site_name" content={dict.seo.title} />
-      <meta name="og:description" content={dict.seo.description} />
-      <meta name="og:title" content={dict.seo.title} />
-      <meta name="og:image" content="/images/barcode.png" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@alexcraviotto" />
-      <meta name="twitter:title" content={dict.seo.title} />
-      <meta name="twitter:description" content={dict.seo.description} />
-      <meta name="twitter:image" content="/images/barcode.png" />
-      <meta name="twitter:creator" content="@alexcraviotto" />
-      <meta name="description" content={dict.seo.description} />
+    <html lang={params.lang} suppressHydrationWarning>
+      <head>
+        <title>{dict.seo.title}</title>
+        <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#FFFFFF" />
+        <meta name="robots" content="follow, index" />
+        <meta name="og:type" content="website" />
+        <meta name="og:site_name" content={dict.seo.title} />
+        <meta name="og:description" content={dict.seo.description} />
+        <meta name="og:title" content={dict.seo.title} />
+        <meta name="og:image" content="/images/barcode.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@alexcraviotto" />
+        <meta name="twitter:title" content={dict.seo.title} />
+        <meta name="twitter:description" content={dict.seo.description} />
+        <meta name="twitter:image" content="/images/barcode.png" />
+        <meta name="twitter:creator" content="@alexcraviotto" />
+        <meta name="description" content={dict.seo.description} />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="system"
           enableSystem
+          forcedTheme={undefined}
+          storageKey="theme-mode"
         >
           <ProjectCTAWrapper lang={params.lang} />
 
@@ -62,8 +66,8 @@ export default async function RootLayout({
           </div>
         </ThemeProvider>
         <Toaster />
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
       </body>
-      <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
     </html>
   );
 }
