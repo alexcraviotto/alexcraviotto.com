@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import TypingAnimation from "./magicui/typing-animation";
 import { Separator } from "./ui/separator";
-import { SiGit, SiGithub, SiInstagram, SiLinkedin, SiX, SiYoutube } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
 import { ModeToggle } from "./ModeToggle";
 import "../app/globals.css"
 type BurgerMenuProps = {
@@ -58,8 +58,6 @@ export default function BurgerMenu({ params: { lang }, className }: BurgerMenuPr
               <SiX className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://x.com/craviottoalex")} />
               <SiGithub className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://github.com/alexcraviotto")} />   
               <SiLinkedin className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://www.linkedin.com/in/alexcraviotto")} />
-              <SiInstagram className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://www.instagram.com/craviottodev")} />
-              <SiYoutube className="h-4 w-4 cursor-pointer" onClick={() => router.push("https://www.youtube.com/@craviottoalex")} />    
               </div>
             
             </div>
