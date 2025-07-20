@@ -24,7 +24,16 @@ export default function Projects({ params: { lang } } : any) {
             <div className="p-4" >
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="opacity-80 mb-4 tracking-tight">{project.description}</p>
-             
+              {project.link && (
+                <a 
+                  href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  {dict.projects.viewProject}
+                </a>
+              )}
             </div>
 
           </div>

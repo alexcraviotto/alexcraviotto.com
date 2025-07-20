@@ -22,6 +22,24 @@
         "viewProject": "> Ver proyecto",
         "list": [
             {
+                "title": "React Hook Form Resolvers | Integración Zod v5",
+                "description": "Contribuí a la librería oficial de React Hook Form resolvers implementando la integración con Zod v5. Este PR permite validación perfecta con la última versión de la librería de validación de esquemas Zod, mejorando la seguridad de tipos y la experiencia del desarrollador.",
+                "link": "https://github.com/alexcraviotto/resolvers",
+                "image": "https://raw.githubusercontent.com/bluebill1049/react-hook-form/master/docs/logo.png"
+            },
+            {
+                "title": "PieCatcher | Análisis de App Store",
+                "description": "Analiza aplicaciones en las tiendas de aplicaciones e identifica debilidades y oportunidades en sus estrategias. Una herramienta diseñada para ayudar a desarrolladores y empresas a entender el posicionamiento del mercado y las ventajas competitivas.",
+                "link": "https://github.com/alexcraviotto/piecatcher",
+                "image": "/images/projects/piecatcher.png"
+            },
+            {
+                "title": "Watch This Sol | Escaner de Direcciones Solana",
+                "description": "Esta extensión escanea tus tweets de la línea de tiempo y respuestas en busca de direcciones de Solana, si las encuentra, se generará un atajo para que puedas analizarlas rápidamente en Solscan. Simplifica el proceso de seguimiento y análisis de transacciones de Solana.",
+                "link": "https://github.com/alexcraviotto/watch-this-sol",
+                "image": "https://raw.githubusercontent.com/alexcraviotto/watch-this-sol/main/assets/img/product/wide.png"
+            },
+            {
                 "title": "ConversaLink | Chatbot con IA",
                 "description": "Revoluciona el servicio al cliente y la adquisición de leads con ConversaLink, un chatbot de IA personalizado para tu negocio. Eleva sin esfuerzo la comunicación, presencia y optimiza conexiones. Mejora tu alcance con automatización perfecta.",
                 "link": "https://conversalink.com",
@@ -93,6 +111,22 @@
         "title": "Experiencia",
         "subtitle": "He colaborado en varios proyectos que me han permitido aprender y crecer como ingeniero de software. Me han proporcionado conocimiento y visión del mundo empresarial profesional. Me encanta construir cosas por mi cuenta, pero también disfruto trabajando en proyectos que me motivan. Aquí hay algunos de los trabajos en los que he participado.",
         "list": [
+            {
+                "title": "Feynman Software | Ingeniero de Software",
+                "company": "Feynman Software",
+                "location": "Remoto",
+                "date": "Marzo 2025 - Actualidad",
+                "description": "Desarrollo de grandes soluciones para productos de empresas y startups interesantes, aplicando buenas metodologías y prácticas de equipo. Trabajo en desarrollo web y móvil, así como en infraestructura.",
+                "technologies": ["Desarrollo Web", "Desarrollo Móvil", "DevOps", "Infraestructura", "Metodologías Ágiles"]
+            },
+            {
+                "title": "Twilink",
+                "company": "Twilink",
+                "location": "Remoto",
+                "date": "Mayo 2025 - Julio 2025",
+                "description": "Twilink te ayuda a hacer crecer tu presencia profesional haciendo lo que ya se te da bien: twittear. Publica en Twitter como siempre — Twilink convierte automáticamente tus tweets en publicaciones profesionales para LinkedIn, sin necesidad de herramientas externas, copiar y pegar manualmente, ni esfuerzo adicional.",
+                "technologies": ["Twitter API", "LinkedIn API", "Automatización", "Redes Sociales"]
+            },
             {
                 "title": "Brick Avengers | Sistema de Reventa de Zapatillas",
                 "company": "Proyecto Personal",

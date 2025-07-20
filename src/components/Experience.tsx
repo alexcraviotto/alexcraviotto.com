@@ -38,13 +38,10 @@ export default function Experience({ params: { lang } }: any) {
                       {item.title}
                     </h3>
                     <div className="flex flex-wrap items-center gap-3 mt-2 text-sm text-gray-600 dark:text-gray-300">
-                      {/* Solo mostrar fecha si no es Upwork */}
-                      {item.company !== "Upwork" && (
-                        <span className="flex items-center gap-1">
-                          <BsCalendar className="inline" />
-                          {item.date}
-                        </span>
-                      )}
+                      <span className="flex items-center gap-1">
+                        <BsCalendar className="inline" />
+                        {item.date}
+                      </span>
                     </div>
                   </div>
                 </div>
