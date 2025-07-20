@@ -8,7 +8,7 @@ import {
     TooltipProvider,
     TooltipTrigger,
 } from "@/components/ui/tooltip"
-import { SiX, SiGithub, SiLinkedin, SiInstagram, SiYoutube } from "react-icons/si";
+import { SiX, SiGithub, SiLinkedin } from "react-icons/si";
 import BurgerMenu from "./BurguerMenu";
 import SpotifyListeningCard from "./SpotifyListeningCard";
 
@@ -53,22 +53,6 @@ export default function Navbar({ lang }: { lang: Locale }) {
                             </TooltipTrigger>
                             <TooltipContent>
                                 <p>Linkedin</p>
-                            </TooltipContent>
-                        </Tooltip>
-                        <Tooltip>
-                            <TooltipTrigger onClick={() => router.push("https://www.instagram.com/craviottodev")}>
-                                <SiInstagram className="h-4 w-4 cursor-pointer" />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                                <p>Instagram</p>
-                            </TooltipContent>
-                        </Tooltip>
-                        <Tooltip>
-                            <TooltipTrigger onClick={() => router.push("https://www.youtube.com/@craviottoalex")}>
-                                <SiYoutube className="h-4 w-4 cursor-pointer" />
-                            </TooltipTrigger>
-                            <TooltipContent>
-                                <p>Youtube</p>
                             </TooltipContent>
                         </Tooltip>
                     </TooltipProvider>
