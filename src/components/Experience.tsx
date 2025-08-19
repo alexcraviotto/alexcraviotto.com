@@ -31,15 +31,15 @@ export default function Experience({ params: { lang } }: any) {
               
               <div className="p-6 border rounded-lg shadow-md hover:shadow-xl transition-all duration-300 
                            bg-white dark:bg-transparent 
-                           dark:border-gray-800 dark:hover:border-gray-700">
+                           dark:border-gray-800 dark:hover:border-gray-700 hover:animate-glow group-hover:scale-[1.02]">
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex-grow">
-                    <h3 className="text-xl font-bold group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">
+                    <h3 className="text-xl font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                       {item.title}
                     </h3>
                     <div className="flex flex-wrap items-center gap-3 mt-2 text-sm text-gray-600 dark:text-gray-300">
-                      <span className="flex items-center gap-1">
-                        <BsCalendar className="inline" />
+                      <span className="flex items-center gap-1 group-hover:text-blue-500 transition-colors">
+                        <BsCalendar className="inline animate-pulse-glow" />
                         {item.date}
                       </span>
                     </div>
