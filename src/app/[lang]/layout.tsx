@@ -7,6 +7,9 @@ import { Toaster } from "@/components/ui/toaster";
 import TransitionWrapper from "@/components/TransitionWrapper";
 import Script from "next/script";
 import ProjectCTAWrapper from "@/components/ProjectCTAWrapper";
+import ParticleBackground from "@/components/ParticleBackground";
+import InteractiveTerminal from "@/components/InteractiveTerminal";
+import MouseTrail from "@/components/MouseTrail";
 
 const inter = Inter({ subsets: ["latin"] });
 type Props = {
@@ -51,11 +54,13 @@ export default async function RootLayout({
           forcedTheme={undefined}
           storageKey="theme-mode"
         >
+          <ParticleBackground />
+          <MouseTrail />
           <ProjectCTAWrapper lang={params.lang} />
 
           <div className="flex flex-col items-center max-w-3xl container mx-auto h-full min-h-screen
           text-black dark:text-[color:var(--foreground)] 
-            bg-gradient-to-bl from-white to-white dark:from-[color:var(--background)] dark:to-[color:var(--card)]">
+            bg-gradient-to-bl from-white to-white dark:from-[color:var(--background)] dark:to-[color:var(--card)] relative z-10">
 
             <Navbar lang={params.lang} />
 
@@ -64,6 +69,7 @@ export default async function RootLayout({
               {children}
             </TransitionWrapper>
           </div>
+          <InteractiveTerminal />
         </ThemeProvider>
         <Toaster />
         <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
