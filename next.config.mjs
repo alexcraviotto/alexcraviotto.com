@@ -13,7 +13,7 @@ const nextConfig = {
             },
             {
                 source: '/twitter',
-                destination: 'https://x.com/craviottoalex',
+                destination: 'https://x.com/craviottx',
                 permanent: true,
             },
             {
