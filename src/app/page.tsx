@@ -1,5 +1,3 @@
-import NowPlaying from "@/components/NowPlaying";
-
 const experience = [
   { company: "HeyGen",           role: "Software Engineer", period: "2026–"     },
   { company: "Consumer App",     role: "Founder",           period: "2025–",    badge: "+45K downloads" },
@@ -39,8 +37,6 @@ export default function Home() {
           </div>
         ))}
       </div>
-
-      <NowPlaying />
 
       <div className="flex gap-5 text-xs text-black/30">
         <a href="https://github.com/alexcraviotto" target="_blank" rel="noopener noreferrer" className="hover:text-black/70 transition-colors duration-200">github</a>
