@@ -40,7 +40,7 @@ export default function Home() {
 
       <div className="flex gap-5 text-xs text-black/30">
         <a href="https://github.com/alexcraviotto" target="_blank" rel="noopener noreferrer" className="hover:text-black/70 transition-colors duration-200">github</a>
-        <a href="https://twitter.com/alexcraviotto" target="_blank" rel="noopener noreferrer" className="hover:text-black/70 transition-colors duration-200">twitter</a>
+        <a href="https://x.com/craviottx" target="_blank" rel="noopener noreferrer" className="hover:text-black/70 transition-colors duration-200">twitter</a>
         <a href="https://linkedin.com/in/alexcraviotto" target="_blank" rel="noopener noreferrer" className="hover:text-black/70 transition-colors duration-200">linkedin</a>
       </div>
     </main>
